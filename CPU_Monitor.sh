@@ -9,6 +9,6 @@ threshold=9
 do
 	if [[ "$util_int" -gt "$threshold" ]]; then
 		service network stop
-		python lightson.python
+		python lightson.py
 	fi
 done
